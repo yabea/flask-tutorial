@@ -1,0 +1,9 @@
+.hello{
+    position: absolute;
+    font-size:3.1em;
+    text-align:center;
+    top: 30%;
+    left: 50%;
+    -webkit-transform: translate3d(-50%,-50%,0);
+    transform: translate3d(-50%,-50%,0);
+    }
