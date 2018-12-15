@@ -7,3 +7,50 @@
     -webkit-transform: translate3d(-50%,-50%,0);
     transform: translate3d(-50%,-50%,0);
     }
+body{
+    background-color:#eee;
+}
+
+.maintitle{
+    color:#000;
+    font-size:40px;
+    font-weight:bold;
+    text-align:center;
+    margin-top:10%;
+}
+
+.content{
+    text-align:center;
+    margin-top:1%;
+}
+
+.error{
+	color:red;
+	font-size: 15px;
+	text-align:center;
+  }
+
+.title{
+    text-align: center;
+    word-spacing: 8px;
+    letter-spacing: 15px;
+    font-size: 40px;
+    font-weight:bold;
+    color: #0d0d0d;
+    margin:20px 0;
+    font-family:'Microsoft YaHei';
+}
+
+a{
+    color:#079aff;
+}
+
+.logo{
+    margin-top:5%;
+    text-align:center;
+}
+
+.logo img{
+    width:300px;
+    height:80px;
+}
