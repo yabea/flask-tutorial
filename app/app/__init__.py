@@ -5,7 +5,7 @@ from sqlalchemy.engine.url import make_url
 from sqlalchemy_utils import database_exists, create_database
 from sqlalchemy.exc import OperationalError, ProgrammingError
 
-from user import user
+from app.app.user import user
 from views import views
 
 
@@ -31,4 +31,5 @@ def create_app(config='app.config.Config'):
 
     app.register_blueprint(views)
     app.register_blueprint(user)
+    print(app.url_map)
     return app
