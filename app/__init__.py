@@ -5,8 +5,8 @@ from sqlalchemy.engine.url import make_url
 from sqlalchemy_utils import database_exists, create_database
 from sqlalchemy.exc import OperationalError, ProgrammingError
 
-from app.app.user import user
-from views import views
+from app.user import user
+from app.views import views
 
 
 def create_app(config='app.config.Config'):
