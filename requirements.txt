@@ -1,4 +1,5 @@
 Flask==0.12
+redis==2.10.6
 passlib==1.7.1
 PyMySQL==0.7.10
 SQLAlchemy==1.1.6

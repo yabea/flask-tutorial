@@ -15,6 +15,7 @@ class Users(db.Model):
     name = db.Column(db.String(128), unique=True)
     email = db.Column(db.String(128))
     password = db.Column(db.String(128))
+    role_id = db.Column(db.Integer)
 
     def __init__(self, name, email, password):
         self.name = name

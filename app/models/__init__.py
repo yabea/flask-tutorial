@@ -3,4 +3,4 @@ from flask_sqlalchemy import SQLAlchemy
 
 db = SQLAlchemy()
 
-from .user import Users, Role
+from .user import Users, Role, Permissions
