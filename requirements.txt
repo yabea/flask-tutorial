@@ -1,4 +1,4 @@
-Flask==0.12
+Flask==1.0
 redis==2.10.6
 passlib==1.7.1
 PyMySQL==0.7.10
